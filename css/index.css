@@ -1,0 +1,90 @@
+html {
+  margin: none;
+  border: none;
+  padding: none;
+}
+
+body {
+  background-color: burlywood;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  border: none;
+  padding: none;
+}
+
+#nav {
+  background-color: chocolate;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin: none;
+  padding: none;
+}
+
+#nav li {
+  height: 10px;
+  background-color: chocolate;
+
+  align-items: center;
+  text-align: bottom;
+  padding: 15px;
+  margin: none;
+  border: none;
+  line-height: 80px;
+}
+
+#nav ul {
+  list-style: none;
+  display: inline-flex;
+  margin: none;
+  border: none;
+  padding: none;
+}
+
+#nav li a {
+  font-family: "Merriweather Sans", sans-serif;
+  text-decoration: none;
+  line-height: 135px;
+}
+
+#nav li a:hover {
+  /* background-color: rgb(253, 177, 63);
+  transition-duration: 0.5s; */
+}
+
+#nav a:hover {
+  color: bisque;
+  transition-duration: 450ms;
+}
+
+#coffeelogo {
+  align-content: center;
+  width: 75px;
+  height: 75px;
+  margin: none;
+  border: none;
+  padding: none;
+}
+
+#coffeeclub a {
+  color: #000;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  line-height: 150px;
+  padding-right: 50px;
+}
+
+a {
+  color: #000;
+}
+
+#coffeeclub a:hover {
+  color: bisque;
+  transition-duration: 450ms;
+}
+
+#latte {
+  width: 100px;
+  height: 100px;
+}
